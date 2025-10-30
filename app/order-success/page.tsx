@@ -51,10 +51,10 @@ function OrderSuccessContent() {
                         <div className="pt-2">
                             <h3 className="font-semibold mb-2">What's Next?</h3>
                             <ul className="space-y-2 text-sm text-muted-foreground">
-                                <li className="flex items-start gap-2">
+                                {/* <li className="flex items-start gap-2">
                                     <span className="text-primary mt-1">•</span>
                                     <span>You'll receive a confirmation email with your order details</span>
-                                </li>
+                                </li> */}
                                 <li className="flex items-start gap-2">
                                     <span className="text-primary mt-1">•</span>
                                     <span>Our team will review your order and contact you within 24 hours</span>
@@ -92,7 +92,7 @@ function OrderSuccessContent() {
                                 </div>
                             </a>
                             <a
-                                href="mailto:info@chfrenchbulldogs.com"
+                                href="mailto:rehomingkelpiepuppies@gmail.com"
                                 className="flex items-center gap-2 p-3 border rounded-lg hover:bg-accent transition-colors"
                             >
                                 <Mail className="h-5 w-5 text-primary" />
@@ -102,7 +102,7 @@ function OrderSuccessContent() {
                                 </div>
                             </a>
                             <a
-                                href="https://wa.me/15035551234"
+                                href="https://wa.me/447415179416"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 p-3 border rounded-lg hover:bg-accent transition-colors"

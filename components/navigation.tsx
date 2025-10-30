@@ -42,7 +42,7 @@ export function Navigation() {
             </Dropdown>
 
             <Dropdown title="Advice">
-              <DropdownLink href="/advice/the-bulldog">The Bulldog</DropdownLink>
+              <DropdownLink href="/advice/the-bulldog">The Goldens</DropdownLink>
               <DropdownLink href="/advice/fraudulent-breeders">Fraudulent Breeders</DropdownLink>
               <DropdownLink href="/advice/how-to-purchase">How to Purchase</DropdownLink>
             </Dropdown>
@@ -111,7 +111,7 @@ export function Navigation() {
               onToggle={() => toggleDropdown("advice")}
             >
               <MobileSubLink onClick={() => handleNavigate("/advice/the-bulldog")}>
-                The Bulldog
+                The Goldens
               </MobileSubLink>
               <MobileSubLink onClick={() => handleNavigate("/advice/fraudulent-breeders")}>
                 Fraudulent Breeders

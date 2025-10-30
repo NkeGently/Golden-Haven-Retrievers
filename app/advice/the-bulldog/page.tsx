@@ -5,15 +5,15 @@ export default function TheBulldogPage() {
   return (
     <main className="py-16 px-4">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-6">The French Bulldog</h1>
+        <h1 className="text-4xl font-bold mb-6">The Golden Retriever</h1>
         <p className="text-lg text-muted-foreground mb-12">
-          Learn about the wonderful French Bulldog breed - their history, temperament, care needs, and what makes them
+          Learn about the wonderful Golden Retriever - their history, temperament, care needs, and what makes them
           such beloved companions.
         </p>
 
         <div className="mb-12">
           <img
-            src="/the-bulldog.JPG?height=400&width=800"
+            src="/gold.jpg?height=400&width=800"
             alt="French Bulldog"
             className="w-full h-64 object-cover border border-border mb-6"
           />
@@ -25,13 +25,10 @@ export default function TheBulldogPage() {
           </CardHeader>
           <CardContent>
             <p className="mb-4">
-              French Bulldogs originated in England in the 1800s as miniature versions of English Bulldogs. When lace
-              workers migrated to France during the Industrial Revolution, they brought these small bulldogs with them.
-              The breed became extremely popular in France, where they were refined and developed their distinctive bat
-              ears.
+              Golden Retrievers originated in Scotland in the mid-1800s, bred by crossing Yellow Retrievers with Tweed Water Spaniels to create the perfect hunting companion. Their intelligence, gentle nature, and love of water made them ideal for retrieving game both on land and in water. Over time, their friendly temperament and loyalty made them one of the most beloved family dogs around the world.
             </p>
             <p>
-              Today, French Bulldogs are one of the most popular breeds in the United States and around the world,
+              Today, Golden Retrievers are one of the most popular breeds in the United States and around the world,
               beloved for their affectionate nature and adaptability to various living situations.
             </p>
           </CardContent>
@@ -45,12 +42,12 @@ export default function TheBulldogPage() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-4">French Bulldogs are known for their wonderful personalities:</p>
+            <p className="mb-4">Golden Retrievers are known for their wonderful personalities:</p>
             <ul className="space-y-2">
               <li>
                 <h3 className="font-bold mb-1">Affectionate and Loving</h3>
                 <p className="text-sm text-muted-foreground">
-                  Frenchies form strong bonds with their families and love to cuddle and be close to their people.
+                  Goldens form strong bonds with their families and love to cuddle and be close to their people.
                 </p>
               </li>
               <li>
@@ -89,7 +86,7 @@ export default function TheBulldogPage() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-4">French Bulldogs thrive in homes that provide:</p>
+            <p className="mb-4">Golden Retrievers thrive in homes that provide:</p>
             <ul className="space-y-2 text-sm">
               <li>• Climate-controlled environment (they're sensitive to heat and cold)</li>
               <li>• Companionship - they don't like being alone for long periods</li>
@@ -109,7 +106,7 @@ export default function TheBulldogPage() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-4">French Bulldogs have moderate exercise needs. They enjoy:</p>
+            <p className="mb-4">Golden Retrievers have moderate exercise needs. They enjoy:</p>
             <ul className="space-y-2 text-sm">
               <li>• Short walks (15-30 minutes) once or twice daily</li>
               <li>• Indoor play sessions</li>
@@ -117,8 +114,8 @@ export default function TheBulldogPage() {
               <li>• Socialization with other dogs (supervised)</li>
             </ul>
             <p className="mt-4 text-sm text-muted-foreground">
-              <strong>Important:</strong> Avoid strenuous exercise, especially in hot weather. French Bulldogs can
-              overheat quickly due to their flat faces.
+              <strong>Important:</strong> Avoid strenuous exercise, especially in hot weather. Golden Retrievers can
+              overheat quickly.
             </p>
           </CardContent>
         </Card>
@@ -131,7 +128,7 @@ export default function TheBulldogPage() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-4">Like all breeds, French Bulldogs have some health considerations to be aware of:</p>
+            <p className="mb-4">Like all breeds, Golden Retrievers have some health considerations to be aware of:</p>
             <ul className="space-y-3">
               <li>
                 <h3 className="font-bold mb-1">Brachycephalic Syndrome</h3>
@@ -154,12 +151,12 @@ export default function TheBulldogPage() {
               <li>
                 <h3 className="font-bold mb-1">Allergies</h3>
                 <p className="text-sm text-muted-foreground">
-                  Some Frenchies may develop food or environmental allergies.
+                  Some Goldens may develop food or environmental allergies.
                 </p>
               </li>
             </ul>
             <p className="mt-4 text-sm">
-              Regular veterinary check-ups and preventative care are essential for keeping your French Bulldog healthy
+              Regular veterinary check-ups and preventative care are essential for keeping your Golden Retriever healthy
               and happy.
             </p>
           </CardContent>
@@ -179,7 +176,7 @@ export default function TheBulldogPage() {
               <li>• Dental care - brush teeth regularly</li>
             </ul>
             <p className="mt-4 text-sm text-muted-foreground">
-              French Bulldogs are relatively low-maintenance in terms of grooming, making them great for busy families.
+              Golden Retrievers are relatively low-maintenance in terms of grooming, making them great for busy families.
             </p>
           </CardContent>
         </Card>

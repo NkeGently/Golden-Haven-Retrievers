@@ -180,7 +180,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold mb-1">WhatsApp</h3>
                     <a
-                      href="https://wa.me/15035551234"
+                      href="https://wa.me/447415179416"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm hover:text-primary"
@@ -194,8 +194,8 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <a href="mailto:info@chfrenchbulldogs.com" className="text-sm hover:text-primary">
-                      info@chfrenchbulldogs.com
+                    <a href="mailto:rehomingkelpiepuppies@gmail.com" className="text-sm hover:text-primary">
+                      info@goldenhavenretrievers.com
                     </a>
                     <p className="text-xs text-muted-foreground mt-1">We respond within 24 hours</p>
                   </div>

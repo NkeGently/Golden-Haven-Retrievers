@@ -48,23 +48,23 @@ export default function HomePage() {
       {[
         {
           id: 1,
-          name: "Sunny",
+          name: "Buddy",
           age: "10 weeks",
           gender: "Male",
           color: "Golden",
-          price: "$3,800",
+          price: "$1,000",
           status: "Available",
-          image: "/puppy1.jpg",
+          image: "/pup 1.jpg",
         },
         {
           id: 2,
-          name: "Rosie",
+          name: "Max",
           age: "9 weeks",
-          gender: "Female",
+          gender: "Male",
           color: "Light Cream",
-          price: "$4,200",
+          price: "$1,000",
           status: "Available",
-          image: "/puppy2.jpg",
+          image: "/pup 2.jpg",
         },
       ].map((puppy) => (
         <Card
@@ -168,14 +168,14 @@ export default function HomePage() {
             experts!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+            {/* <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
               <a href="tel:+15035551234">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Us
               </a>
-            </Button>
+            </Button> */}
             <Button asChild size="lg" variant="outline">
-              <a href="https://wa.me/15035551234" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/447415179416" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Message on WhatsApp
               </a>
@@ -184,27 +184,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Dear Customers */}
-      <section className="py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-4">Dear Customers</h2>
-          <p className="text-center text-lg mb-12 text-muted-foreground max-w-3xl mx-auto">
-            Thank you for trusting us to help you find the perfect Golden Retriever. We're grateful to be part of your
-            journey.
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-              <div key={i} className="aspect-square">
-                <img
-                  src={`/placeholder.svg?height=300&width=300&query=happy customer with french bulldog puppy ${i}`}
-                  alt={`Customer with puppy ${i}`}
-                  className="w-full h-full object-cover border border-border"
-                />
-              </div>
-            ))}
-          </div>
+     {/* Dear Customers */}
+<section className="py-16 px-4">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl font-bold text-center mb-4">Dear Customers</h2>
+    <p className="text-center text-lg mb-12 text-muted-foreground max-w-3xl mx-auto">
+      Thank you for trusting us to help you find the perfect Golden Retriever. We're grateful to be part of your
+      journey.
+    </p>
+
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {[
+        "/rev 1.jpeg",
+        "/rev 2.jpg",
+        "/rev 9.webp",
+        "/rev 4.jpg",
+        "/rev 5.webp",
+        "/rev 10.jpg",
+        "/rev 7.webp",
+        "/rev 8.jpg",
+      ].map((img, i) => (
+        <div key={i} className="aspect-square overflow-hidden rounded-lg">
+          <img
+            src={img}
+            alt={`Customer with puppy ${i + 1}`}
+            className="w-full h-full object-cover border border-border hover:scale-105 transition-transform duration-300"
+          />
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* FAQ */}
       <section className="py-16 px-4 bg-muted">
