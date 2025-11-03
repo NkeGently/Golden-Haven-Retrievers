@@ -9,7 +9,7 @@ export default function ShippingPage() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-6">Shipping Policy</h1>
         <p className="text-lg text-muted-foreground mb-12">
-          We offer safe, reliable delivery options to bring your French Bulldog puppy home, whether you're local or
+          We offer safe, reliable delivery options to bring your Golden Retriever puppy home, whether you're local or
           across the country.
         </p>
 

@@ -48,23 +48,23 @@ export default function HomePage() {
       {[
         {
           id: 1,
-          name: "Buddy",
+          name: "Max",
           age: "10 weeks",
           gender: "Male",
           color: "Golden",
-          price: "$1,000",
+          price: "$1,200",
           status: "Available",
-          image: "/pup 1.jpg",
+          image: "/max1.jpg",
         },
         {
           id: 2,
-          name: "Max",
+          name: "Bella",
           age: "9 weeks",
-          gender: "Male",
+          gender: "Female",
           color: "Light Cream",
-          price: "$1,000",
+          price: "$1,500",
           status: "Available",
-          image: "/pup 2.jpg",
+          image: "/bella2.jpg",
         },
       ].map((puppy) => (
         <Card
@@ -306,7 +306,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card>
               <CardContent className="pt-6">
-                <p className="text-sm text-muted-foreground mb-2">February 3, 2023</p>
+                <p className="text-sm text-muted-foreground mb-2">⭐️⭐️⭐️  • February 16, 2022</p>
                 <p className="mb-4 text-pretty">
                   "We purchased our 2nd puppy from GHR on Sunday!! Easy transaction and beautiful puppies!!"
                 </p>
@@ -315,7 +315,7 @@ export default function HomePage() {
             </Card>
             <Card>
               <CardContent className="pt-6">
-                <p className="text-sm text-muted-foreground mb-2">November 3, 2022</p>
+                <p className="text-sm text-muted-foreground mb-2">⭐️⭐️⭐️⭐️  • November 3, 2023</p>
                 <p className="mb-4 text-pretty">
                   "I have three of the Golden Haven Retrievers and couldn't be happier. They are all very healthy and have
                   great temperaments. GHR has been great at answering questions both before and after getting the puppies
@@ -327,7 +327,7 @@ export default function HomePage() {
             </Card>
             <Card>
               <CardContent className="pt-6">
-                <p className="text-sm text-muted-foreground mb-2">November 3, 2022</p>
+                <p className="text-sm text-muted-foreground mb-2">⭐️⭐️⭐️  • December 24, 2023</p>
                 <p className="mb-4 text-pretty">
                   "Have to give a huge thank you to Idella for all her help and transparency through this entire process!
                   I received my beautiful little princess and couldn't be happier with her. She is super playful and
@@ -336,6 +336,39 @@ export default function HomePage() {
                 <p className="font-bold">— Jenny Ramirez</p>
               </CardContent>
             </Card>
+            <Card>
+  <CardContent className="pt-6">
+    <p className="text-sm text-muted-foreground mb-2">⭐️⭐️⭐️⭐️⭐️  •  June 12, 2024</p>
+    <p className="mb-4 text-pretty">
+      "We had such a great experience with Golden Haven Retrievers! Our puppy Bella arrived healthy, happy, and so well-socialized.
+      The entire process was smooth and professional we could tell she came from a loving environment."
+    </p>
+    <p className="font-bold">— Emily Roberts</p>
+  </CardContent>
+</Card>
+
+<Card>
+  <CardContent className="pt-6">
+    <p className="text-sm text-muted-foreground mb-2">⭐️⭐️⭐️⭐️  •  October 8, 2024</p>
+    <p className="mb-4 text-pretty">
+      "Amazing communication and genuine care from start to finish. Our boy Max has been such a blessing — calm, friendly, and great with kids.
+      We’re so thankful we found this breeder!"
+    </p>
+    <p className="font-bold">— James & Sarah Mitchell</p>
+  </CardContent>
+</Card>
+
+<Card>
+  <CardContent className="pt-6">
+    <p className="text-sm text-muted-foreground mb-2">⭐️⭐️⭐️⭐️  •  February 20, 2025</p>
+    <p className="mb-4 text-pretty">
+      "Couldn’t have asked for a better experience! The team was transparent and kind throughout. Our little Luna is healthy,
+      playful, and full of love — you can tell she was raised with real care."
+    </p>
+    <p className="font-bold">— Olivia Bennett</p>
+  </CardContent>
+</Card>
+
           </div>
         </div>
       </section>
