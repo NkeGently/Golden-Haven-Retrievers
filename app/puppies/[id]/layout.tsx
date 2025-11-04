@@ -41,11 +41,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${puppy.name} - ${puppy.color} Golden Retriever Puppy for Sale | Golden Haven Retrievers`,
       description: `${puppy.age} old ${puppy.color.toLowerCase()} Golden Retriever ${puppy.gender.toLowerCase()} for sale. ${puppy.description} Health guaranteed. ${puppy.priceDisplay}`,
       type: "website",
-      url: `https://goldenhavenretrievers.com/puppies/${puppy.id}`,
+      url: `https://golden-haven-retrievers.vercel.app/puppies/${puppy.id}`,
       siteName: "Golden Haven Retrievers",
       images: [
         {
-          url: puppy.image.startsWith("http") ? puppy.image : `https://goldenhavenretrievers.com${puppy.image}`,
+          url: puppy.image.startsWith("http") ? puppy.image : `https://golden-haven-retrievers.vercel.app${puppy.image}`,
           width: 1200,
           height: 630,
           alt: `${puppy.name} - ${puppy.color} Golden Retriever Puppy`,
@@ -56,10 +56,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: `${puppy.name} - ${puppy.color} Golden Retriever Puppy for Sale`,
       description: `Meet ${puppy.name}, a ${puppy.age} old ${puppy.color.toLowerCase()} Golden Retriever. Health guaranteed, vaccinated. ${puppy.priceDisplay}`,
-      images: [puppy.image.startsWith("http") ? puppy.image : `https://goldenhavenretrievers.com${puppy.image}`],
+      images: [puppy.image.startsWith("http") ? puppy.image : `https://golden-haven-retrievers.vercel.app${puppy.image}`],
     },
     alternates: {
-      canonical: `https://goldenhavenretrievers.com/puppies/${puppy.id}`,
+      canonical: `https://golden-haven-retrievers.vercel.app/puppies${puppy.id}`,
     },
     robots: {
       index: true,

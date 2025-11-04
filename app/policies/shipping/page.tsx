@@ -3,6 +3,14 @@ import { Plane, Home, Shield, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Shipping Policy",
+  description:
+    "Learn about Golden Haven Retrievers’ safe and comfortable puppy shipping process. Nationwide delivery options to ensure your puppy arrives healthy and happy.",
+}
+
 export default function ShippingPage() {
   return (
     <main className="py-16 px-4">

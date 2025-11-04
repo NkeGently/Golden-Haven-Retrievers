@@ -28,11 +28,11 @@ export const metadata: Metadata = {
     description:
       "Find your perfect Golden Retriever companion from our trusted breeding program. Family-raised, health-tested, and full of love — ready for their forever homes.",
     type: "website",
-    url: "https://goldenhavenretrievers.com/puppies",
+    url: "https://golden-haven-retrievers.vercel.app/puppies",
     siteName: "Golden Haven Retrievers",
     images: [
       {
-        url: "/logo-hori.png",
+        url: "/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Golden Haven Retrievers - Premium Golden Retriever Puppies",
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     title: "Available Golden Retriever Puppies for Sale & Adoption | Golden Haven Retrievers",
     description:
       "Browse our adorable, healthy Golden Retriever puppies for sale. Family-raised with care and love, all puppies come with health guarantees and vaccinations.",
-    images: ["/logo-hori.png"],
+    images: ["/opengraph-image.png"],
   },
   alternates: {
-    canonical: "https://goldenhavenretrievers.com/puppies",
+    canonical: "https://golden-haven-retrievers.vercel.app/puppies",
   },
 }
 

@@ -1,4 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "Read Golden Haven Retrievers’ Privacy Policy to understand how we collect, store, and protect your personal information responsibly.",
+}
 
 export default function PrivacyPolicyPage() {
     return (

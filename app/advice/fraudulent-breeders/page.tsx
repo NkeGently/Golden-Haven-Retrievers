@@ -1,5 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { AlertTriangle, Shield, CheckCircle, XCircle } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Avoid Puppy Scams and Fraudulent Breeders",
+  description:
+    "Learn how to safely find a trustworthy Golden Retriever breeder. Discover red flags, verify breeder legitimacy, and protect yourself from online puppy scams.",
+}
 
 export default function FraudulentBreedersPage() {
   return (

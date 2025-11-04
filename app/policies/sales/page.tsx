@@ -1,14 +1,21 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { AlertCircle } from "lucide-react"
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Sales Policy",
+  description:
+    "Understand our sales policy for Golden Haven Retriever puppies. Learn about reservation requirements, deposits, and purchase agreements.",
+}
+
 export default function SalesPage() {
   return (
     <main className="py-16 px-4">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-6">Sales Policy</h1>
         <p className="text-lg text-muted-foreground mb-12">
-          Please review our sales terms and conditions carefully before purchasing a French Bulldog puppy from CH French
-          Bulldogs.
+          Please review our sales terms and conditions carefully before purchasing a Golden Retriever from GHR.
         </p>
 
         <Card className="mb-8">

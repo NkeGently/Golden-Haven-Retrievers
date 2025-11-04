@@ -2,6 +2,14 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Check } from "lucide-react"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Puppy Financing Options",
+  description:
+    "Explore flexible puppy financing options to make owning your Golden Retriever easy and affordable. Safe, simple payment plans for every family.",
+}
+
 
 export default function FinancingPage() {
   return (
@@ -9,7 +17,7 @@ export default function FinancingPage() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-6">Financing Options</h1>
         <p className="text-lg text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          We understand that bringing home a French Bulldog is a significant investment. That's why we offer flexible
+          We understand that bringing home a Golden Retriever is a significant investment. That's why we offer flexible
           financing options to help make your dream of owning a Frenchie a reality.
         </p>
 

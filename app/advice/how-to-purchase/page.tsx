@@ -1,6 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "How to Purchase Your Golden Retriever Puppy",
+  description:
+    "Step-by-step guide to purchasing your Golden Haven Retriever puppy. Learn how to reserve, complete payment, and prepare for your new companion.",
+}
+
 
 export default function HowToPurchasePage() {
   return (

@@ -1,6 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Check } from "lucide-react"
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Health Warranty Policy",
+  description:
+    "Review our health warranty policy. Every Golden Haven Retriever puppy is covered by genetic and health guarantees for your peace of mind.",
+}
+
 export default function WarrantyPage() {
   return (
     <main className="py-16 px-4">

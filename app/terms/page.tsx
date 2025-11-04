@@ -1,5 +1,14 @@
 import { Card, CardContent } from "@/components/ui/card"
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Terms and Conditions",
+  description:
+    "Please review our Terms and Conditions before purchasing a Golden Haven Retriever puppy. Clear, fair, and transparent policies for all customers.",
+}
+
+
 export default function TermsOfServicePage() {
     return (
         <main className="py-16 px-4">

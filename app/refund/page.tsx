@@ -1,5 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card"
+import type { Metadata } from "next"
 
+export const metadata: Metadata = {
+  title: "Refund Policy",
+  description:
+    "Learn about our refund policy for puppy deposits and purchases. Golden Haven Retrievers prioritizes fairness and transparency in every transaction.",
+}
 export default function RefundPolicyPage() {
     return (
         <main className="py-16 px-4">

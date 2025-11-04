@@ -1,5 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Heart, Home, Activity, Stethoscope } from "lucide-react"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "The History of the Golden Retriever",
+  description:
+    "Discover the rich history of the Golden Retriever breed — from its origins in Scotland to becoming one of the world’s most beloved family dogs.",
+}
 
 export default function TheBulldogPage() {
   return (
