@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Check, Phone, MessageCircle } from "lucide-react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import Script from "next/script";
 
 export default function HomePage() {
   return (
@@ -477,6 +478,21 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <Script id="tawkto-chat" strategy="lazyOnload">
+  {`
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/690b366a727def194d09dfe3/1j99sp4ho';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  `}
+</Script>
     </main>
   )
 }
